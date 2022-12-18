@@ -9,7 +9,7 @@ body{
 .one{
   width: 2000px;
   height: 700px;
-  background-image: url(.ImV/parallax.jpg);
+  background-image: url(./ImV/parallax.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
 }
