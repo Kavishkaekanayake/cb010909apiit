@@ -1,4 +1,3 @@
-
 //*variables----/
 const txtLOCALADULTS = document.getElementById("localadults");
 const txtDURLOAD = document.getElementById("durload");
@@ -147,16 +146,15 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
 
 function calculateValue4(event){
 
-
-  let localadults = parseInt(txtLOCALADULTS.value); 
+ 
   let durfoad = parseInt(txtDURFOAD.value);
   let foreignadults= parseInt(txtFOREIGNADULTS.value);
-  let durchil = parseInt(txtDURCHIL.value)
+ 
   let durchil1 = parseInt(txtDURCHIL1.value)
-  let agechil= parseInt(txtAGECHIL.value);
+  
   let agechil1= parseInt(txtAGECHIL1.value);
   let children1= parseInt(txtCHILDREN1.value);
- let durload = parseInt(txtDURLOAD.value);
+ 
  let num = parseInt(txtNUM.value);
  let extype=parseInt(txtEXTYPE.value);
 
@@ -166,7 +164,7 @@ function calculateValue4(event){
  let calf=num*extype;
  
 let cal3=cala+calf;
-let calx=cal1+cal2+cal;
+ 
 txtLastOutput2.innerText += `----------------Normal Payments------------
   --- Foreign Adults = ${foreignadults*5000}--
   --- Children       = ${children1*agechil1}----
@@ -206,6 +204,10 @@ function generatePDF() {
 
  alert(" We appreciate your booking and hope you have a pleasant journey.your ticket got downloaded as a pdf(Train number 145)");
 }
+
+
+
+
 
 
 
