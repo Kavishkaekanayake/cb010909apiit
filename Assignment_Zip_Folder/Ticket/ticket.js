@@ -119,6 +119,7 @@ function calculateValue1(event){
 let cal=cal1+cal2;
 let cal3=cala+calf;
 let calx=cal1+cal2+cal;
+  let calfinal1 += cal1;
 txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Local Adults   = ${localadults*2500}----
   --- Children       = ${children*agechil}----
@@ -127,7 +128,8 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
    --- Annual pass          =${cala.toFixed(2)}-----
   --- Food token           =${calf.toFixed(2)}
   --- Sub Total(Extras)     =${cal3.toFixed(2)}
-  --------------------------------------------`;
+  --------------------------------------------
+  Cost of the total order(foreign) =${calfinal1.toFixed(2)}`;
 
   txtOutput1.innerText = `----------------Normal Payments------------
   --- Local Adults   = 0----
@@ -162,6 +164,7 @@ function calculateValue4(event){
  let cal2 =(foreignadults*5000+durfoad+children1*agechil1 + durchil1);
  let cala=num*extype;
  let calf=num*extype;
+  let calfinal += cal2;
  
 let cal3=cala+calf;
  
@@ -173,7 +176,8 @@ txtLastOutput2.innerText += `----------------Normal Payments------------
   --- Annual pass          =${cala.toFixed(2)}-----
   --- Food token           =${calf.toFixed(2)}
   --- Sub Total(Extras)     =${cal3.toFixed(2)}
-  --------------------------------------------`;
+  --------------------------------------------
+  Cost of the total order(foreign) =${calfinal.toFixed(2)}`;
 
   txtOutput2.innerText = `----------------Normal Payments------------
   --- Local Adults   = 0----
