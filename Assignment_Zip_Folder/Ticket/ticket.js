@@ -128,8 +128,7 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
    --- Annual pass          =${cala.toFixed(2)}-----
   --- Food token           =${calf.toFixed(2)}
   --- Sub Total(Extras)     =${cal3.toFixed(2)}
-  --------------------------------------------
-  Cost of the total order(foreign) =${calfinal1.toFixed(2)}`;
+  --------------------------------------------`;
 
   txtOutput1.innerText = `----------------Normal Payments------------
   --- Local Adults   = 0----
@@ -176,8 +175,7 @@ txtLastOutput2.innerText += `----------------Normal Payments------------
   --- Annual pass          =${cala.toFixed(2)}-----
   --- Food token           =${calf.toFixed(2)}
   --- Sub Total(Extras)     =${cal3.toFixed(2)}
-  --------------------------------------------
-  Cost of the total order(foreign) =${calfinal.toFixed(2)}`;
+  --------------------------------------------`;
 
   txtOutput2.innerText = `----------------Normal Payments------------
   --- Local Adults   = 0----
