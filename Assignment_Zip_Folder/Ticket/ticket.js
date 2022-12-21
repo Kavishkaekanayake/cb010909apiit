@@ -119,7 +119,6 @@ function calculateValue1(event){
 let cal=cal1+cal2;
 let cal3=cala+calf;
 let calx=cal1+cal2+cal;
-  let calfinal1 += cal1;
 txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Local Adults   = ${localadults*2500}----
   --- Children       = ${children*agechil}----
@@ -163,7 +162,6 @@ function calculateValue4(event){
  let cal2 =(foreignadults*5000+durfoad+children1*agechil1 + durchil1);
  let cala=num*extype;
  let calf=num*extype;
-  let calfinal += cal2;
  
 let cal3=cala+calf;
  
@@ -206,10 +204,6 @@ function generatePDF() {
 
  alert(" We appreciate your booking and hope you have a pleasant journey.your ticket got downloaded as a pdf(Train number 145)");
 }
-
-
-
-
 
 
 
