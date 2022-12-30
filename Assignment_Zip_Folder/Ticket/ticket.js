@@ -21,6 +21,8 @@ const txtOutput1 = document.getElementById("currentorder1");
 const txtOutput2 = document.getElementById("currentorder2");
 const txtLastOutput1=document.getElementById("overallorder");
 const txtLastOutput2=document.getElementById("overallorder");
+const txtLastOutput3=document.getElementById("overallordercal");
+const txtLastOutput4=document.getElementById("overallordercal");
   
 //*--EventListners/
 
@@ -138,6 +140,8 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Food token           =0
   --- Sub Total(Extras)     =0
   --------------------------------------------`;
+  
+  txtLastOutput3.innerText += cal1;  
 
 
 }
@@ -185,6 +189,7 @@ txtLastOutput2.innerText += `----------------Normal Payments------------
   --- Sub Total(Extras)     =0
   --------------------------------------------`;
 
+   txtLastOutput4.innerText += cal2;
 
 }
 //*---Pdf generation/
