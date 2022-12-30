@@ -141,7 +141,7 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Sub Total(Extras)     =0
   --------------------------------------------`;
   
-  txtLastOutput3.innerText += cal1;  
+  txtLastOutput3.innerText = cal1++ ;  
 
 
 }
@@ -189,7 +189,7 @@ txtLastOutput2.innerText += `----------------Normal Payments------------
   --- Sub Total(Extras)     =0
   --------------------------------------------`;
 
-   txtLastOutput4.innerText += cal2;
+   txtLastOutput4.innerText = cal2++ ;
 
 }
 //*---Pdf generation/
