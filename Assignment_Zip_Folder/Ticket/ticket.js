@@ -103,7 +103,7 @@ txtOutput2.innerText = `----------------Normal Payments------------
 
 function calculateValue1(event){
 
-
+let cal1 = 0;
   let localadults = parseInt(txtLOCALADULTS.value); 
   let durfoad = parseInt(txtDURFOAD.value);
   let foreignadults= parseInt(txtFOREIGNADULTS.value);
@@ -114,13 +114,14 @@ function calculateValue1(event){
  let num = parseInt(txtNUM.value);
  let extype=parseInt(txtEXTYPE.value);
 
- let cal1 = (localadults*2500+ durload + children*agechil + durchil );
+  cal1 = (localadults*2500+ durload + children*agechil + durchil );
  let cal2 =(foreignadults*5000+durfoad+children*agechil + durchil);
  let cala=num*extype;
  let calf=num*extype;
 let cal=cal1+cal2;
 let cal3=cala+calf;
 let calx=cal1+cal2+cal;
+  let cal4=cal1+cal1;
 txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Local Adults   = ${localadults*2500}----
   --- Children       = ${children*agechil}----
@@ -141,7 +142,7 @@ txtLastOutput1.innerText += `----------------Normal Payments------------
   --- Sub Total(Extras)     =0
   --------------------------------------------`;
   
-  txtLastOutput3.innerText = cal1++ ;  
+  txtLastOutput3.innerText = cal4 ;  
 
 
 }
