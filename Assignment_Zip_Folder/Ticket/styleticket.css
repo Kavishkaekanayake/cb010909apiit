@@ -338,16 +338,7 @@ h4 span{
  
 }
 
-#overallordercal{
-height: 40px;
-width: 400px; 	
-background-color: black;
-border: 5px solid white; 
-	float: right;
-  padding-top: 100px;
-  margin-top: 150px;
-}
-
+ 
 .display{
   display: grid;
   grid-template-rows: auto auto;
